@@ -1,0 +1,111 @@
+@startuml
+'https://plantuml.com/class-diagram
+skin rose
+
+package Models{
+
+abstract Carta{
+- cardName; String
+- description; String
+- manaCost; int
+- type; String
+- power; int
+- tougness; int
+- castingCost; int
++ Carta(cardName; String, description; String, manaCost; int,
+  type; String, power; int, tougness; int, castingCost; int)
++ empaquetarInformacion();
++ get´s()
++ set´s()
+}
+class Usuario{
+- nombreUsuario; String
+- contrasenia; String
++ Usuario(nombreUsuario; String, contrasenia; String)
++ get´s()
++ set´s()
+}
+class Mazo{
+- nombreMazo; String
+- cantidadCarta; int
++ Mazo(nombreMazo; String, cardName; String, cantidadCarta; int, description; String, manaCost; int,
+       type; String, power; int, tougness; int, castingCost; int)
+}
+class ListaUsuario{
+- listaUsuario; Usuario[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaUsuario(cantidadMaxima; int)
++ buscarPosicionNombre(nombre; String); int
++ buscarPosicionContrasenia(contrasenia; String, (posicion; int)); int
++ obtenerPosicion(posicion; int); usuario
++ agregarUsuario(usuario; Usuario); boolean
+
+}
+class ListaCarta{
+- listaCarta; Carta[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaCarta(cantidadMaxima; int)
++ buscarPosicion(cardName; String); int
++ obtenerPosicion(posicion; int); Carta
++ agregarCarta(carta; Carta); boolean
++ eliminarCarta(carta; Carta); boolean
++ get´s()
++ set´s()
+}
+class ListaMazo{
+- listaCarta; Mazo[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaMazo(cantidadMaxima; int)
++ buscarPosicion(nombreMazo; String); int
++ obtenerPosicion(posicion; int); Carta
++ agregarMazo(mazo; Mazo); boolean
++ eliminarMazo(mazo; Mazo); boolean
+}
+
+}
+package Services{
+interface ISistemaGestorDeMazo{
+
++ LecturaCsv();
++ LecturaArchivo();
++ RegistrarUsuario();
++ ConstruirMazo();
++ ModificarMazo();
++ ExportarMazo();
++ AgregarSliboard();
++ ModificarSliboard();
++ ExportarSliboard();
++ ImprimirCarta();
+
+
+
+}
+class SistemaGestorDeMazo{
+- listaCarta; ListaCarta
+- listaUsuario; ListaUsuario
+- listaMazo; ListaMazo
+}
+}
+
+package Utils{
+class Instalador{
+- instalador; ISistemaGestorDeMazo
++ instalador()
++ instalarSistema(); ISistemaGestorDeMazo
+}
+}
+'relaciones
+Carta "*"--o "1"ListaCarta
+Mazo "1..5"--|> "*"Carta
+Mazo "1..5"--o "1"ListaMazo
+Usuario "1..*"--o "1" ListaUsuario
+SistemaGestorDeMazo "1" --> "1" ListaUsuario
+SistemaGestorDeMazo "1" --> "1" ListaMazo
+SistemaGestorDeMazo "1" --> "1" ListaCarta
+ISistemaGestorDeMazo "1" --|> "1" SistemaGestorDeMazo
+Instalador "1"--> "1" ISistemaGestorDeMazo
+Instalador "1" --> "1" SistemaGestorDeMazo
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+Skin rose
+
+entity Usuario{
+NombreUsuario; String
+Contraseña; String
+}
+entity Mazo{
+NombreMazo; String
+CantidadCarta; int
+}
+
+entity Carta{
+CardName; String
+Description; String
+ManaCost; int
+Type; String
+Power; int
+Tougness; int
+CastingCost; int
+}
+
+entity SideBoard{
+NombreMazo; String
+CantidadCarta; int
+}
+
+Usuario "1..*" --> "1..4" Mazo
+Mazo "1..4" --> "*"Carta
+Usuario "1..*" --> "1" SideBoard
+SideBoard"1..15" --> Carta
+note "Un usuario puede tener tanto un mazo como un sideboard" as n1
+
+n1.. Usuario
+@enduml
