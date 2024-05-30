@@ -1,0 +1,171 @@
+@startuml
+'https://plantuml.com/class-diagram
+skin rose
+
+package Models{
+
+abstract Carta{
+- cardName; String
+- description; String
+- manaCost; int
+- type; String
+- power; int
+- tougness; int
+- castingCost; int
++ Carta(cardName; String, description; String, manaCost; int,
+  type; String, power; int, tougness; int, castingCost; int)
++ get´s()
++ set´s()
+}
+class Carta2{
++ empaquetarInformacion();
+}
+
+class Usuario{
+- nombreUsuario; String
+- contrasenia; String
+- mazo; int
+- mazo2; int
+- mazo3; int
+- mazo4; int
++ Usuario(nombreUsuario; String, contrasenia; String, mazo; int, mazo2; int, mazo3; int, mazo4; int)
++ get´s()
++ set´s()
+}
+class Mazo{
+- nombreMazo; String
+- cantidadCarta; int
++ Mazo(nombreMazo; String, cardName; String, cantidadCarta; int, description; String, manaCost; int,
+       type; String, power; int, tougness; int, castingCost; int)
++ empaquetarInformacion();
+}
+class Sidedeck{
+- mazoAsociado; String
++ get´s()
++ set´s()
+}
+class ListaUsuario{
+- listaUsuario; Usuario[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaUsuario(cantidadMaxima; int)
++ esVacio();boolean
++ buscarPosicionNombre(nombre; String); int
++ buscarPosicionContrasenia(contrasenia; String, (posicion; int)); int
++ obtenerPosicion(posicion; int); usuario
++ agregarUsuario(usuario; Usuario); boolean
++ comprobarMazo(dato; boolean, posicion; int, validacion; int); boolean
+
+}
+class ListaCarta{
+- listaCarta; Carta[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaCarta(cantidadMaxima; int)
++ buscarCarta(Strubg cardBane); int
++ obtenerPosicion(posicion; int); Carta
++ agregarCarta(carta; Carta); boolean
++ eliminarCarta(carta; Carta); boolean
++ get´s()
++ set´s()
+}
+class ListaMazo{
+- listaCarta; Mazo[]
+- cantidadMaxima; int
+- cantidadMinima; int
++ ListaMazo(cantidadMaxima; int)
++ esVacio(); boolean
++ creoMazo(usuario; String); boolean
++ buscarPosicion(nombreMazo; String, usuarioActual; String); int
++ obtenerPosicion(posicion; int); Mazo
++ agregarMazo(usuarioActual; String, cantidad; int, cartaAgregar; String); Mazo
++ agregarMazo(nuevoMazo; Mazo); boolean
++ modificarCantidad(nuevoMazo; Mazo, cantidad; int); boolean
++ modificarCantidad(nuevoMazo; Mazo, cantidad; int, eliminar; boolean); Mazo
++ eliminarMazo(mazo; Mazo, usuarioActual; String); boolean
++ contar60(usuarioActual; String); int
+}
+abstract Tierra{
+- landCardName; String
+- type; String
+- color; String
++ Tierra(landCardName; String, type; String, color; String)
+}
+class Tierra2{
++ empaquetarInformacion();
+}
+class ListaTierra{
+- listaTierra; Tierra[]
+- cantidadmaxima; int
+- cantidadActual; int
++ ListaTierra(int cantidadMaxima)
++ buscarPosicion(cardName String); int
++ obtenerPosicion(posicion; int); Tierra
++ get´s()
++ set´s()
+}
+
+}
+package Services{
+interface ISistemaGestorDeMazo{
+
++ registrarUsuario(nombreUsuario; String, contrasenia; String); boolean
++ iniciarSesion(nombreUsuario; String, contrasenia; String); boolean
++ lecturaListaCartas(); boolean
++ lecturaListaTierras(); boolean
++ guardarRegistroUsuario(); boolean
++ exportarMazo(); boolean
++ cargarDatos(); void
++ agregarSliboard(cantidad; int, carta String, listaMazoSeleccionada; ListaMazo, respuesta; String, esSideck; boolean); boolean
++ eliminarCartaSidedeck(carta; String); boolean
++ exportar(); void
++ imprimirCarta(cardName; String); String
++ imprimirtTierra(landCardName; String); String
++ agregarnuevaCarta(carta; String, origen; boolean, esSidedeck; boolean); boolean
++ eliminarCarta(cardName; String); boolean
++ comprobarListaModificada(); boolean
++ comprobarCreacionMazo(); boolean
++ mostrarcarta(); void
++ mostrarmazos(boolean opcion,String referencia); void
+
+
+
+}
+class SistemaGestorDeMazo{
+- usuarioActual; String
+- mazoReferencia; String
+- listaCarta; ListaCarta
+- listaUsuario; ListaUsuario
+- listaMazo; ListaMazo
+- listamazo2; ListaMazo
+- listamazo3; ListaMazo
+- listamazo4; ListaMazo
+- listaSideck; ListaMazo
+- listaUsuario; ListaUsuario
+- listaTierra; ListaTierra
+}
+}
+
+package Utils{
+class Instalador{
+- instalador; ISistemaGestorDeMazo
++ instalador()
++ instalarSistema(); ISistemaGestorDeMazo
+}
+}
+'relaciones
+Carta2 "*" --> "1"Carta
+Carta "*" --> "1" ListaCarta
+Tierra2 "*" --> "1"Tierra
+Tierra "*" --> "1"ListaTierra
+Mazo "1..4"--o "1"ListaMazo
+Sidedeck "1..4"--o "1..4" Mazo
+Usuario "1..*"--o "1" ListaUsuario
+SistemaGestorDeMazo "1" --> "1" ListaUsuario
+SistemaGestorDeMazo "1" --> "1" ListaMazo
+SistemaGestorDeMazo "1" --> "1" ListaCarta
+SistemaGestorDeMazo "1" --> "1" ListaTierra
+ISistemaGestorDeMazo "1" --|> "1" SistemaGestorDeMazo
+Instalador "1"--> "1" ISistemaGestorDeMazo
+Instalador "1" --> "1" SistemaGestorDeMazo
+@enduml

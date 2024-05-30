@@ -1,0 +1,327 @@
+Card name,Type,Color
+Castle Ardenvale,Land,W
+Cave of the Frost Dragon,Land,W
+Desert of the True,Land - Desert,W
+Drifting Meadow,Land,W
+Flagstones of Trokair,Legendary Land,W
+Forbidding Watchtower,Land,W
+Idyllic Grange,Land - Plains,W
+Kabira Crossroads,Land,W
+Kjeldoran Outpost,Land,W
+Kor Haven,Legendary Land,W
+Memorial to Glory,Land,W
+New Benalia,Land,W
+Nomad Stadium,Land,W
+Rustic Clachan,Land,W
+Sandstone Bridge,Land,W
+Secluded Steppe,Land,W
+Sejiri Steppe,Land,W
+Shefet Dunes,Land - Desert,W
+Snow-Covered Plains,Basic Snow Land - Plains,W
+Vivid Meadow,Land,W
+Blighted Cataract,Land,U
+Castle Vantress,Land,U
+Cephalid Coliseum,Land,U
+Desert of the Mindful,Land - Desert,U
+Faerie Conclave,Land,U
+Halimar Depths,Land,U
+Hall of Storm Giants,Land,U
+Ipnu Rivulet,Land - Desert,U
+Lonely Sandbar,Land,U
+Memorial to Genius,Land,U
+Remote Isle,Land,U
+Shelldock Isle,Land,U
+Skyline Cascade,Land,U
+Snow-Covered Island,Basic Snow Land - Island,U
+Soaring Seacliff,Land,U
+Soldevi Excavations,Land,U
+Teferi's Isle,Legendary Land,U
+Vivid Creek,Land,U
+Barren Moor,Land,B
+Blighted Fen,Land,B
+Bojuka Bog,Land,B
+Cabal Pit,Land,B
+Castle Locthwain,Land,B
+Dakmor Salvage,Land,B
+Desert of the Glorified,Land - Desert,B
+Hive of the Eye Tyrant,Land,B
+Howltooth Hollow,Land,B
+Ifnir Deadlands,Land - Desert,B
+Lake of the Dead,Land,B
+Piranha Marsh,Land,B
+Polluted Mire,Land,B
+Snow-Covered Swamp,Basic Snow Land - Swamp,B
+Spawning Pool,Land,B
+Tomb of Urami,Legendary Land,B
+Vivid Marsh,Land,B
+Westvale Abbey,Land ,B
+Balduvian Trading Post,Land,R
+Barbarian Ring,Land,R
+Blighted Gorge,Land,R
+Castle Embereth,Land,R
+Den of the Bugbear,Land,R
+Desert of the Fervent,Land - Desert,R
+Dwarven Mine,Land - Mountain,R
+Flamekin Village,Land,R
+Forgotten Cave,Land,R
+Ghitu Encampment,Land,R
+Hellion Crucible,Land,R
+Keldon Megaliths,Land,R
+Keldon Necropolis,Legendary Land,R
+Kher Keep,Legendary Land,R
+Looming Spires,Land,R
+Memorial to War,Land,R
+Ramunap Ruins,Land - Desert,R
+Shivan Gorge,Legendary Land,R
+Smoldering Crater,Land,R
+Smoldering Spires,Land,R
+Snow-Covered Mountain,Basic Snow Land - Mountain,R
+Teetering Peaks,Land,R
+Vivid Crag,Land,R
+Dryad Arbor,Land Creature - Forest Dryad,G
+Blighted Woodland,Land,G
+Centaur Garden,Land,G
+Desert of the Indomitable,Land - Desert,G
+Fertile Thicket,Land,G
+Gaea's Cradle,Legendary Land,G
+Gingerbread Cabin,Land - Forest,G
+Hashep Oasis,Land - Desert,G
+Heart of Yavimaya,Land,G
+Khalni Garden,Land,G
+Lair of the Hydra,Land,G
+Memorial to Unity,Land,G
+Pendelhaven,Legendary Land,G
+Slippery Karst,Land,G
+Snow-Covered Forest,Basic Snow Land - Forest,G
+Tranquil Thicket,Land,G
+Treetop Village,Land,G
+Turntimber Grove,Land,G
+Vivid Grove,Land,G
+Yavimaya Hollow,Legendary Land,G
+Azorius Chancery,Land,WU
+Azorius Guildgate,Land - Gate,WU
+Boreal Shelf,Snow Land,UW
+Celestial Colonnade,Land,WU
+Gates of Istfell,Land,WU
+Glacial Floodplain,Snow Land - Plains Island,WU
+Razortide Bridge,Artifact Land,WU
+Tranquil Cove,Land,WU
+Creeping Tar Pit,Land,UB
+Dimir Aqueduct,Land,UB
+Dimir Guildgate,Land - Gate,UB
+Dismal Backwater,Land,UB
+Frost Marsh,Snow Land,BU
+Ice Tunnel,Snow Land - Island Swamp,BU
+Mistvault Bridge,Artifact Land,BU
+Nephalia Drownyard,Land,UB
+Port of Karfell,Land,BU
+Bloodfell Caves,Land,BR
+Drossforge Bridge,Artifact Land,BR
+Immersturm Skullcairn,Land,BR
+Lavaclaw Reaches,Land,BR
+Rakdos Carnarium,Land,BR
+Rakdos Guildgate,Land - Gate,BR
+Stensia Bloodhall,Land,BR
+Sulfurous Mire,Snow Land - Swamp Mountain,BR
+Tresserhorn Sinks,Snow Land,BR
+Gnottvold Slumbermound,Land,GR
+Gruul Guildgate,Land - Gate,GR
+Gruul Turf,Land,GR
+Highland Forest,Snow Land - Mountain Forest,GR
+Highland Weald,Snow Land,GR
+Kessig Wolf Run,Land,GR
+Raging Ravine,Land,GR
+Rugged Highlands,Land,GR
+Slagwoods Bridge,Artifact Land,GR
+Arctic Flats,Snow Land,GW
+Arctic Treeline,Snow Land - Forest Plains,GW
+Blossoming Sands,Land,GW
+Bretagard Stronghold,Land,GW
+Gavony Township,Land,GW
+Grove of the Guardian,Land,GW
+Nantuko Monastery,Land,GW
+Riftstone Portal,Land,GW
+Selesnya Guildgate,Land - Gate,GW
+Selesnya Sanctuary,Land,GW
+Stirring Wildwood,Land,GW
+Thornglint Bridge,Artifact Land,GW
+Goldmire Bridge,Artifact Land,BW
+Great Hall of Starnheim,Land,BW
+Orzhov Basilica,Land,BW
+Orzhov Guildgate,Land - Gate,BW
+Scoured Barrens,Land,BW
+Shambling Vent,Land,BW
+Silverquill Campus,Land,BW
+Vault of the Archangel,Land,BW
+Desolate Lighthouse,Land,RU
+Izzet Boilerworks,Land,RU
+Izzet Guildgate,Land - Gate,RU
+Prismari Campus,Land,RU
+Silverbluff Bridge,Artifact Land,RU
+Swiftwater Cliffs,Land,RU
+Volatile Fjord,Snow Land - Island Mountain,RU
+Wandering Fumarole,Land,RU
+Darkmoss Bridge,Artifact Land,BG
+Golgari Guildgate,Land - Gate,BG
+Golgari Rot Farm,Land,BG
+Grim Backwoods,Land,BG
+Hissing Quagmire,Land,BG
+Jungle Hollow,Land,BG
+Skemfar Elderhall,Land,BG
+Witherbloom Campus,Land,BG
+Woodland Chasm,Snow Land - Swamp Forest,BG
+Alpine Meadow,Snow Land - Mountain Plains,RW
+Axgard Armory,Land,RW
+Boros Garrison,Land,RW
+Boros Guildgate,Land - Gate,RW
+Lorehold Campus,Land,RW
+Needle Spires,Land,RW
+Rustvale Bridge,Artifact Land,RW
+Slayers' Stronghold,Land,RW
+Wind-Scarred Crag,Land,RW
+Littjara Mirrorlake,Land,GU
+Lumbering Falls,Land,GU
+Quandrix Campus,Land,GU
+Rimewood Falls,Snow Land - Forest Island,GU
+Simic Growth Chamber,Land,GU
+Simic Guildgate,Land - Gate,GU
+Tanglepool Bridge,Artifact Land,GU
+Thornwood Falls,Land,GU
+Seaside Citadel,Land,GUW
+Treva's Ruins,Land - Lair,GUW
+Arcane Sanctum,Land,BUW
+Dromar's Cavern,Land - Lair,BUW
+Crosis's Catacombs,Land - Lair,BRU
+Crumbling Necropolis,Land,BRU
+Crypt of the Eternals,Land,BRU
+Darigaaz's Caldera,Land - Lair,BGR
+Savage Lands,Land,BGR
+Jungle Shrine,Land,GRW
+Rith's Grove,Land - Lair,GRW
+Nomad Outpost,Land,BRW
+Frontier Bivouac,Land,GRU
+Sandsteppe Citadel,Land,BGW
+Mystic Monastery,Land,RUW
+Opulent Palace,Land,BGU
+The World Tree,Land,BGRUW
+Access Tunnel,Land,Colorless
+Aether Hub,Land,Colorless
+Ancient Tomb,Land,Colorless
+Animal Sanctuary,Land,Colorless
+Arch of Orazca,Land,Colorless
+Archaeological Dig,Land,Colorless
+Archway Commons,Land,Colorless
+Arena,Land,Colorless
+Ash Barrens,Land,Colorless
+Base Camp,Land,Colorless
+Bazaar of Baghdad,Land,Colorless
+Blasted Landscape,Land,Colorless
+Blinkmoth Nexus,Land,Colorless
+Bonders' Enclave,Land,Colorless
+Cascading Cataracts,Land,Colorless
+Cathedral of War,Land,Colorless
+Cave of Temptation,Land,Colorless
+Contested War Zone,Land,Colorless
+Cradle of the Accursed,Land - Desert,Colorless
+Crawling Barrens,Land,Colorless
+Cryptic Caves,Land,Colorless
+Dark Depths,Legendary Snow Land,Colorless
+Darksteel Citadel,Artifact Land,Colorless
+Desert,Land - Desert,Colorless
+Deserted Temple,Land,Colorless
+Diamond Valley,Land,Colorless
+Dread Statuary,Land,Colorless
+Drownyard Temple,Land,Colorless
+Dunes of the Dead,Land - Desert,Colorless
+Dungeon Descent,Land,Colorless
+Dust Bowl,Land,Colorless
+Encroaching Wastes,Land,Colorless
+Endless Sands,Land - Desert,Colorless
+Evolving Wilds,Land,Colorless
+Faceless Haven,Snow Land,Colorless
+Field of Ruin,Land,Colorless
+Field of the Dead,Land,Colorless
+Foundry of the Consuls,Land,Colorless
+Frostwalk Bastion,Snow Land,Colorless
+Gargoyle Castle,Land,Colorless
+Geier Reach Sanitarium,Legendary Land,Colorless
+Ghost Quarter,Land,Colorless
+Glacial Chasm,Land,Colorless
+Grasping Dunes,Land - Desert,Colorless
+Hall of Oracles,Land,Colorless
+Halls of Mist,Land,Colorless
+Hostile Desert,Land - Desert,Colorless
+Ice Floe,Land,Colorless
+Inkmoth Nexus,Land,Colorless
+Island of Wak-Wak,Land,Colorless
+Isolated Watchtower,Land,Colorless
+Karn's Bastion,Land,Colorless
+Labyrinth of Skophos,Land,Colorless
+Library of Alexandria,Land,Colorless
+Lotus Field,Land,Colorless
+Mage-Ring Network,Land,Colorless
+Maze of Ith,Land,Colorless
+Maze's End,Land,Colorless
+Meteor Crater,Land,Colorless
+Mirrorpool,Land,Colorless
+Mishra's Factory,Land,Colorless
+Mobilized District,Land,Colorless
+Mouth of Ronom,Snow Land,Colorless
+Mutavault,Land,Colorless
+Myriad Landscape,Land,Colorless
+Mystifying Maze,Land,Colorless
+Oasis,Land,Colorless
+Painted Bluffs,Land - Desert,Colorless
+Petrified Field,Land,Colorless
+Quicksand,Land,Colorless
+Radiant Fountain,Land,Colorless
+Rath's Edge,Legendary Land,Colorless
+Reliquary Tower,Land,Colorless
+Rishadan Port,Land,Colorless
+Rogue's Passage,Land,Colorless
+Ruins of Oran-Rief,Land,Colorless
+Safe Haven,Land,Colorless
+Scavenger Grounds,Land - Desert,Colorless
+School of the Unseen,Land,Colorless
+Scrying Sheets,Snow Land,Colorless
+Sea Gate Wreckage,Land,Colorless
+Seraph Sanctuary,Land,Colorless
+Sheltered Valley,Land,Colorless
+Shimmerdrift Vale,Snow Land,Colorless
+Spawning Bed,Land,Colorless
+Springjack Pasture,Land,Colorless
+Stalking Stones,Land,Colorless
+Strip Mine,Land,Colorless
+Sunscorched Desert,Land - Desert,Colorless
+Swarmyard,Land,Colorless
+Tectonic Edge,Land,Colorless
+Temple of the Dragon Queen,Land,Colorless
+Temple of the False God,Land,Colorless
+Terminal Moraine,Land,Colorless
+Terrain Generator,Land,Colorless
+Terramorphic Expanse,Land,Colorless
+Thawing Glaciers,Land,Colorless
+The Biblioplex,Land,Colorless
+The Tabernacle at Pendrell Vale,Legendary Land,Colorless
+Thespian's Stage,Land,Colorless
+Throne of the High City,Land,Colorless
+Tomb of the Spirit Dragon,Land,Colorless
+Transguild Promenade,Land,Colorless
+Treasure Vault,Artifact Land,Colorless
+Tyrite Sanctum,Land,Colorless
+Unstable Frontier,Land,Colorless
+Urza's Factory,Land - Urza,Colorless
+Urza's Mine,Land - Urza,Colorless
+Urza's Power Plant,Land - Urza,Colorless
+Urza's Saga,Enchantment Land - Urza Saga,Colorless
+Urza's Tower,Land - Urza Tower,Colorless
+Vesuva,Land,Colorless
+Wasteland,Land,Colorless
+Wintermoon Mesa,Land,Colorless
+Zhalfirin Void,Land,Colorless
+Zoetic Cavern,Land,Colorless
+Island,Basic Land,
+Swamp,Basic Land,
+Forest,Basic Land,
+Plains,Basic Land,
+Mountain,Basic Land,
